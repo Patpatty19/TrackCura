@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Finals</string>
+    <string-array name="user_roles">
+        <item>Doctor</item>
+        <item>Nurse</item>
+        <item>Patient</item>
+    </string-array>
+
+</resources>

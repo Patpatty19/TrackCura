@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/pastel_blue">
+
+    <TextView
+        android:id="@+id/txtPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        style="@style/TitleTextStyle"/>
+
+    <EditText
+        android:id="@+id/edtMedicalHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Medical History"
+        android:background="@drawable/input_field"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edtDoctorNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor's Notes"
+        android:background="@drawable/input_field"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edtPrescriptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prescriptions"
+        android:background="@drawable/input_field"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnSaveRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Record"
+        android:background="@drawable/btn_style"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

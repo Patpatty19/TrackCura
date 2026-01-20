@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@color/pastel_blue"
+    android:gravity="center_horizontal">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New User"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        style="@style/TitleTextStyle"/>
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textColor="@color/dark_text"
+        android:background="@drawable/input_field"
+        android:padding="14dp"
+        android:textSize="16sp"
+        android:elevation="2dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="@color/dark_text"
+        android:background="@drawable/input_field"
+        android:padding="14dp"
+        android:textSize="16sp"
+        android:elevation="2dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Role Selection -->
+    <Spinner
+        android:id="@+id/spinnerRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background"
+        android:padding="12dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Add User Button -->
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:textSize="18sp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:padding="14dp"
+        android:elevation="4dp"
+        android:layout_marginTop="10dp"
+        style="@style/ButtonStyle"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/pastel_blue">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scheduled Appointments"
+        style="@style/TitleTextStyle"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Appointment List Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:radius="12dp"
+        android:layout_marginBottom="16dp">
+
+        <ListView
+            android:id="@+id/listViewAppointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:background="@color/white"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+    <!-- Add Appointment Button -->
+    <Button
+        android:id="@+id/btnAddAppointment"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Appointment"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

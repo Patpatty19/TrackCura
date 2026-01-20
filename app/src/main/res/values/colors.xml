@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pastel_background">#F8FFF4</color>
+    <color name="pastel_primary">#A3D8F4</color>
+    <color name="pastel_secondary">#FAFAC6</color>
+    <color name="pastel_accent">#FECDAA</color>
+    <color name="pastel_blue">#A7C7E7</color> <!-- Added pastel blue -->
+    <color name="white">#FFFFFF</color>
+    <color name="text_dark">#474350</color>
+    <color name="background_light">#F8FFF4</color>
+    <color name="primary_dark">#474350</color>
+    <color name="button_light">#FECDAA</color>
+    <color name="light_blue">#F8FFF4</color>
+    <color name="dark_blue">#474350</color>
+    <color name="soft_green">#FAFAC6</color>
+    <color name="dark_text">#333333</color>
+    <color name="button_background">#FECDAA</color>
+    <color name="pastel_blue_dark">#8DB3D7</color> <!-- Slightly darker shade for pressed effect -->
+
+        <!-- Primary Colors -->
+        <color name="primaryBlue">#4A90E2</color> <!-- Soft medical blue -->
+        <color name="secondaryBlue">#74B3CE</color> <!-- Light pastel blue -->
+
+        <!-- Background Colors -->
+        <color name="light_background">#F8FFF4</color> <!-- Soft pastel background -->
+        <color name="lightCardBackground">#FFFFFF</color> <!-- White card background -->
+
+        <!-- Text Colors -->
+        <color name="darkText">#333333</color> <!-- Dark text for contrast -->
+        <color name="grayText">#757575</color> <!-- Subtle gray for descriptions -->
+
+        <!-- Button Colors -->
+        <color name="primaryButton">#007AFF</color> <!-- Apple-like blue button -->
+        <color name="errorRed">#E57373</color> <!-- Soft error red -->
+
+        <!-- List Divider -->
+        <color name="dividerGray">#BDBDBD</color> <!-- Light gray dividers -->
+
+    <color name="primary_text">#2C3E50</color>      <!-- Dark blue for primary text -->
+    <color name="secondary_text">#5D6D7E</color>   <!-- Soft gray-blue for secondary text -->
+    <color name="button_color">#74B9FF</color>     <!-- Light blue for buttons -->
+    <color name="button_pressed">#4A90E2</color>
+
+    <color name="soft_blue">#E3F2FD</color>
+
+
+</resources>
+
+

@@ -1,0 +1,54 @@
+# Android/IntelliJ/Gradle .gitignore
+
+# Gradle
+.gradle/
+/build/
+**/build/
+
+# Local configuration files
+local.properties
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Android Studio
+.gradle/
+/caches/
+/capture/
+
+# Kotlin
+*.kotlin_module
+
+# Generated files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Signing
+keystore*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+
+# Ignore Gradle wrapper jar (if you want to track it, remove this)
+gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio specific
+.navigation/
+
+# Build outputs
+app/build/
+
+# Others
+.idea/
+.vscode/
+
+# End of .gitignore
+
