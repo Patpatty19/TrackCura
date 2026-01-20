@@ -1,4 +1,4 @@
-# AndroidFinals
+# TrackCura
 
 This is an Android project (Gradle/Kotlin) created in Android Studio.
 
