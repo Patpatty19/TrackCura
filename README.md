@@ -22,5 +22,5 @@ Option B (using GitHub CLI - gh):
 
   gh repo create <your-username>/<repo> --public --source=. --remote=origin --push
 
-If you'd like, I can also set the remote and push for you — tell me the GitHub repo URL or give me the repo name and whether you want it public or private.
+
 
